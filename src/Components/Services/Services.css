@@ -13,6 +13,12 @@
     
 }
 
+.service-card:hover {
+    border-color: #2D89FF;
+    color: #2D89FF;
+    cursor: pointer;
+}
+
 .service-logo{
     position: relative;
    left: 100px;

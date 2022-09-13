@@ -9,3 +9,7 @@
 .banner-img-section {
     position: absolute;
 }
+.banner-header {
+    font-size: 60px;
+    width: 600;
+}

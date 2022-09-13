@@ -10,24 +10,31 @@ import './Appointment.css' ;
 
 const Appointment = () => {
     return (
-       <Container>
+       <Container style={{marginBottom:'40px'}}>
+
+        
+
+       
             <Row>
-        <Col xs={4}>
+        <Col xs={5}>
         <img src={appointment_img} alt="" />
         </Col>
-        <Col xs={8}>
+        <Col xs={7}>
             <div className='text-start'>
                     <p className='secondary-color'>
                         Our Hospital Feature
                     </p>
 
                     <h2>
-                    Make An Appointment Easy And Fast Services 
+                    Make An Appointment Easy And Fast <br /> Services 
                     </h2>
+                    
 
+
+                    <div className='d-flex justify-content-evenly appointment-box'>
                     <Row>
         <Col xs={6}>
-            <div className="appointment-card">
+            <div className="appointment-card mb-5 ">
                
                 <div className="text-start p-2">
                     <p className='fw-bold'>
@@ -55,9 +62,10 @@ const Appointment = () => {
            </div>
         </Col>
       </Row>
+      </div>
       
 
-      
+      <div className='d-flex justify-content-center appointment-box'> 
       <Row className=''>
         <Col xs={6}>
         <div className="appointment-card">
@@ -88,6 +96,7 @@ const Appointment = () => {
            </div>
         </Col>
       </Row>
+      </div>
       </div>
            
 

@@ -7,7 +7,12 @@
 body {
   background-color: #F7F7F7 ;
 background-image: linear-gradient(to right, #90D4ED , #EB90ED);
+font-family: 'Inter', sans-serif;
+
 }
+
+
+
 
 /* .App-logo {
   height: 40vmin;

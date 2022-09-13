@@ -15,9 +15,9 @@ const Banner = () => {
             <Row className='g-5'>
         <Col  xs={7}>
             <div className='text-start'>
-            <h1>
-                Your Health Is Our <br />
-                Top Priority
+            <h1 className='banner-header'>
+                Your <span className='text-primary'>Health</span> Is Our <br />
+               <span className='secondary-color'>Top Priority</span>
             </h1>
             <p>
             There are many variations of passages of lpsum  <br />
@@ -25,6 +25,12 @@ const Banner = () => {
             </p>
             <br />
             <Button className='p-2' variant="primary">Meet Our Specialists</Button>
+
+
+
+
+
+
 
             <div className='row mt-5'>
                 <div className="col">
