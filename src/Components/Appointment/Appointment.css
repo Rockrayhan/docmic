@@ -7,6 +7,12 @@
    
 }
 
+/* .appointment-card :hover {
+            color: #2D89FF;
+            border: 2px solid #2D89FF;
+            cursor: pointer;
+} */
+
 .appointment-logo{
     position: relative;
     left: 60px;
