@@ -7,5 +7,8 @@
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
-    
+}
+
+.nav-text :hover {
+    color: #2D89FF !important;
 }

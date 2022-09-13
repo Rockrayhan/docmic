@@ -5,7 +5,7 @@ import faq_img from '../../DocMic_images/faq-img.png' ;
 
 const Faq = () => {
     return (
-        <div style={{marginBottom:'100px'}}>
+        <div style={{marginBottom:'100px'}} id='contact'>
             <Container>   
    
             <Row>
@@ -43,7 +43,7 @@ const Faq = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="2">
         <Accordion.Header>What is one Medical’s care?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -55,7 +55,7 @@ const Faq = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="3">
         <Accordion.Header>What is evidence based medicine?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -67,7 +67,7 @@ const Faq = () => {
           culpa qui officia deserunt mollit anim id est laborum.
         </Accordion.Body>
       </Accordion.Item>
-      <Accordion.Item eventKey="1">
+      <Accordion.Item eventKey="4">
         <Accordion.Header>What is an academic medical center?</Accordion.Header>
         <Accordion.Body>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

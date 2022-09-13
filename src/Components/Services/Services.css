@@ -3,12 +3,13 @@
 }
 
 .service-card{
-    width: 250px;
-    height: 160px;
+    width: 260px;
+    height: 170px;
     border-radius: 5px;
     background-color: white;
-    box-shadow: 0px 2px 4px;
+    box-shadow: 0px 2px 4px rgba(55, 55, 55, 0.08);
     margin-bottom: 90px;
+    
     /* position: absolute; */
     
 }
@@ -17,7 +18,14 @@
     border-color: #2D89FF;
     color: #2D89FF;
     cursor: pointer;
+    border: 2px solid #2D89FF ;
+    
 }
+
+.service-card a :hover {
+    color: #2D89FF !important;
+}
+
 
 .service-logo{
     position: relative;

@@ -11,7 +11,17 @@ font-family: 'Inter', sans-serif;
 
 }
 
+.accordion-button.collapsed::after {
 
+  background: url("/src/DocMic_images/plus_icon_1.svg") ;
+
+}
+
+.accordion-button:not(.collapsed)::after {
+
+  background: url("/src/DocMic_images/plus_icon_1.svg") ;
+
+}
 
 
 /* .App-logo {

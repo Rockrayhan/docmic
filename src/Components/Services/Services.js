@@ -9,7 +9,7 @@ import service_logo_4 from '../../DocMic_images/service-logo-4.png' ;
 
 const Services = () => {
     return (
-        <div style={{marginBottom:'56px'}}>
+        <div style={{marginBottom:'56px'}} id="about">
             <p className='secondary-color mt-5'>Our Services</p> 
             <h2 className='mb-5'>
             Services For Your Health
@@ -21,7 +21,7 @@ const Services = () => {
         <Col xs={3}>
             <div className='service-card'>
             <img className='img-fluid service-logo' src={service_logo_1} alt="" />
-               <div className="text-start ms-2">
+               <div className="text-start ms-2 ">
                <p>
                     Cardiology
                 </p>
@@ -42,7 +42,7 @@ const Services = () => {
                 
                <div className="text-start ms-2">
                <p>
-                    Cardiology
+               Monthly Check Up
                 </p>
                 <p>
                 Seduahag perspiciati under omnised atused error.
@@ -60,7 +60,7 @@ const Services = () => {
             <img className='img-fluid service-logo' src={service_logo_3} alt="" />
                <div className="text-start ms-2">
                <p>
-                    Cardiology
+               Dental Care
                 </p>
                 <p>
                 Seduahag perspiciati under omnised atused error.
@@ -78,7 +78,7 @@ const Services = () => {
             <img className='img-fluid service-logo' src={service_logo_4} alt="" />
                <div className="text-start ms-2">
                <p>
-                    Cardiology
+               Opthalmologyn
                 </p>
                 <p>
                 Seduahag perspiciati under omnised atused error.

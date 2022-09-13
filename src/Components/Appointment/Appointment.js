@@ -10,7 +10,7 @@ import './Appointment.css' ;
 
 const Appointment = () => {
     return (
-       <Container style={{marginBottom:'40px'}}>
+       <Container style={{marginBottom:'40px'}} id="appointment">
 
         
 
@@ -31,7 +31,7 @@ const Appointment = () => {
                     
 
 
-                    <div className='d-flex justify-content-evenly appointment-box'>
+                    <div className='d-flex justify-content-evenly appointment-box mt-5'>
                     <Row>
         <Col xs={6}>
             <div className="appointment-card mb-5 ">
@@ -52,8 +52,8 @@ const Appointment = () => {
                
                <div className="text-start p-2">
                    <p className='fw-bold'>
-                       24 Hours Doctor Support
-                       <img className='appointment-logo img-fluid' src={appointment_logo_1} alt="" />
+                   Exclusive Supports
+                       <img className='appointment-logo img-fluid' src={appointment_logo_2} alt="" />
                    </p>
                    <p>
                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -72,8 +72,8 @@ const Appointment = () => {
                
                <div className="text-start p-2">
                    <p className='fw-bold'>
-                       24 Hours Doctor Support
-                       <img className='appointment-logo img-fluid' src={appointment_logo_1} alt="" />
+                   Friendly Environment 
+                       <img className='appointment-logo img-fluid' src={appointment_logo_3} alt="" />
                    </p>
                    <p>
                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
@@ -86,8 +86,8 @@ const Appointment = () => {
                
                <div className="text-start p-2">
                    <p className='fw-bold'>
-                       24 Hours Doctor Support
-                       <img className='appointment-logo img-fluid' src={appointment_logo_1} alt="" />
+                   24 Hours Nurse Support
+                       <img className='appointment-logo img-fluid' src={appointment_logo_4} alt="" />
                    </p>
                    <p>
                    simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 

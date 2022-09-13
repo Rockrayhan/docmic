@@ -3,6 +3,7 @@
     position: relative;
     top: -150px;
     right: 180px;
+    border-color:#642DFF !important;
     
 }
 
@@ -12,4 +13,9 @@
 .banner-header {
     font-size: 60px;
     width: 600;
+}
+
+.cheack_logo{
+    position: relative;
+    top: 3px;
 }
