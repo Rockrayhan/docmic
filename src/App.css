@@ -1,8 +1,15 @@
 .App {
   text-align: center;
+  /* background-color: #F7F7F7 ;
+  background-image: linear-gradient(to right, #90D4ED , #EB90ED); */
 }
 
-.App-logo {
+body {
+  background-color: #F7F7F7 ;
+background-image: linear-gradient(to right, #90D4ED , #EB90ED);
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +42,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
